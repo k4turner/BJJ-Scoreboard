@@ -130,7 +130,7 @@ socket.on(WS_ACTIONS.START, data => {
         $('#start').attr('class', '');
         $('#start').addClass('fas fa-play-circle');
       } else {
-        $('#start').text('Iniciar');
+        $('#start').text('Start');
       }
     } else {
       App.renderTimer(App.seconds);
@@ -139,7 +139,7 @@ socket.on(WS_ACTIONS.START, data => {
         $('#start').attr('class', '');
         $('#start').addClass('fas fa-pause-circle');
       } else {
-        $('#start').text('Pausa');
+        $('#start').text('Pause');
       }
     }
   }
@@ -152,7 +152,7 @@ socket.on(WS_ACTIONS.RESTART, data => {
       $('#start').addClass('fas fa-play-circle');
       $('.points-score').text('0');
     } else {
-      $('#start').text('Iniciar');
+      $('#start').text('Start');
     }
     App.stopTimer();
     App.seconds = App.minutes * 60;

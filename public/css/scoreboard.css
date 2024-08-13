@@ -6,7 +6,7 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: repeat(1fr, 12);
-  grid-template-rows: 2fr 1fr 6fr 3fr;
+  grid-template-rows: 2fr 1fr 6fr 3fr 1fr;
   font-family: 'Roboto Mono, monospace';
 }
 
@@ -139,6 +139,54 @@ body {
   grid-row-start: 4;
   grid-column: span 3;
 }
+
+.fighter-1-adv-text {
+  background-color: #FCFF51;
+  color: #000;
+  font-size: 3em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-row-start: 5;
+  grid-column: span 3;
+}
+
+.fighter-1-pen-text {
+  background-color: red;
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-row-start: 5;
+  grid-column: span 3;
+  }
+
+.fighter-2-adv-text {
+  background-color: #FCFF51;
+  color: #000;
+  font-size: 3em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-row-start: 5;
+  grid-column: span 3;
+}
+
+.fighter-2-pen-text {
+  background-color: red;
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-row-start: 5;
+  grid-column: span 3;
+  }
 
 input#fighter-1-name {
   text-align: center;

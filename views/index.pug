@@ -3,20 +3,20 @@ extends layout
 block content
   link(rel='stylesheet', href='/css/scoreboard.css')
   .logo1
-    img(src="/images/TEAM360_logos-09-256x256.png")
+    img(src="/images/ncl_bjj_open.jpg")
   .timer
   .logo2
     a(href="/control")
-      img(src="/images/icon-256x256.png")
+      img(src="/images/2048-itaipava-jiu-jitsu.jpg")
   .fighter-1-name
     input#fighter-1-name(
       type="text",
-      placeholder="Luchador 1"
+      placeholder="Fighter 1"
     )
   .fighter-2-name
     input#fighter-2-name(
       type="text",
-      placeholder="Luchador 2"
+      placeholder="Fighter 2"
     )
   .fighter-1-score 0
   .fighter-2-score 0
@@ -24,3 +24,7 @@ block content
   .fighter-1-penal 0
   .fighter-2-adv 0
   .fighter-2-penal 0
+  .fighter-1-adv-text ADV
+  .fighter-1-pen-text PEN
+  .fighter-2-adv-text ADV
+  .fighter-2-pen-text PEN
