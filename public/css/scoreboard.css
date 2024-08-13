@@ -19,7 +19,12 @@ body {
   justify-content: center;
 }
 
-.logo1 img, .logo2 img {
+.logo1 img {
+  height 120px;
+  width 360px;
+}
+
+.logo2 img {
   height: 120px;
 }
 
